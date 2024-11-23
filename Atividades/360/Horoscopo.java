@@ -49,13 +49,12 @@ public class Horoscopo {
             contador++;
         }
 
-        // Exibe o horóscopo de todas as pessoas cadastradas
         String resultado = "Horóscopo Das Pessoas Cadastradas:\n";
         for (int i = 0; i < contador; i++) {
             resultado += "Data de Nascimento: " + pessoas[i].dataNascimento + "\n";
             resultado += "Signo: " + pessoas[i].signo + "\n\n";
         }
 
-        JOptionPane.showMessageDialog(null, resultado); // Exibe a listagem
+        JOptionPane.showMessageDialog(null, resultado);
     }
 }
