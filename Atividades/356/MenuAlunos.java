@@ -32,7 +32,6 @@ public class MenuAlunos {
 
             switch (menuop.opcao) {
                 case 1:
-                    // Montar a listagem
                     StringBuilder listagem = new StringBuilder();
                     listagem.append("Nome \t\t  PR1  \t  PR2  \t  Média  \t  Situação\n");
                     listagem.append("----------------------------------------------\n");
