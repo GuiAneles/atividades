@@ -4,7 +4,6 @@ public class AlunosNotas {
     public static void main(String[] args) {
         Aluno[] alunos = new Aluno[5];
 
-        // Coleta de dados para 5 alunos
         for (int i = 0; i < 5; i++) {
             alunos[i] = new Aluno();
 
@@ -17,11 +16,9 @@ public class AlunosNotas {
             s = JOptionPane.showInputDialog("Digite a 2ª nota do aluno " + alunos[i].nome + ":");
             alunos[i].nota2 = Double.parseDouble(s);
 
-            // Calculando a média
             alunos[i].media = (alunos[i].nota1 + alunos[i].nota2) / 2;
         }
-
-        // Exibindo a listagem de todos os alunos
+        
         String resultado = "Listagem de Alunos e Notas:\n";
         for (int i = 0; i < 5; i++) {
             resultado += "Aluno: " + alunos[i].nome + "\n" +
