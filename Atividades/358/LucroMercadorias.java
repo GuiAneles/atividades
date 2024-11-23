@@ -3,7 +3,7 @@ import javax.swing.JOptionPane;
 public class LucroMercadorias {
     public static void main(String[] args) {
         Mercadoria[] mercadorias = new Mercadoria[100];
-        int lucroMenor10 = 0, lucroEntre10e20 = 0, lucroMaior20 = 0; // Contadores
+        int lucroMenor10 = 0, lucroEntre10e20 = 0, lucroMaior20 = 0;
 
         for (int i = 0; i < 100; i++) {
             mercadorias[i] = new Mercadoria();
