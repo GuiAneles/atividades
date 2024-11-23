@@ -50,7 +50,6 @@ public class HotelFazenda {
         } while(opcao != 7);
     }
 
-    // Métodos auxiliares
     private static void cadastraQuartos(Quarto[] quartos) {
         for (int i = 0; i < quartos.length; i++) {
             quartos[i].numero = i + 1;
