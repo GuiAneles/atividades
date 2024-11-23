@@ -15,7 +15,7 @@ public class ReservasPassagem {
             String identidade = JOptionPane.showInputDialog("Digite O Número Da Identidade Do Cliente ('sair' Para Encerrar):");
 
             if ("sair".equalsIgnoreCase(identidade)) {
-                break; // Encerra o loop se o usuário digitar "sair"
+                break;
             }
 
             int numeroVooDesejado = Integer.parseInt(JOptionPane.showInputDialog("Digite O Número Do Vôo Desejado:"));
