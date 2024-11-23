@@ -5,7 +5,6 @@ public class MenuAlunos {
         Menu menuop = new Menu();
         Aluno[] alunos = new Aluno[15]; // Vetor para armazenar 15 objetos Aluno
 
-        // Coleta de dados dos alunos
         for (int i = 0; i < 15; i++) {
             alunos[i] = new Aluno(); // Inicializa um novo objeto Aluno
 
@@ -13,7 +12,6 @@ public class MenuAlunos {
             alunos[i].pr1 = Double.parseDouble(JOptionPane.showInputDialog("Digite a nota da PR1 de " + alunos[i].nome + ":"));
             alunos[i].pr2 = Double.parseDouble(JOptionPane.showInputDialog("Digite a nota da PR2 de " + alunos[i].nome + ":"));
 
-            // Calcula a média e define a situação
             alunos[i].media = (alunos[i].pr1 + alunos[i].pr2) / 2;
             alunos[i].media = Math.round(alunos[i].media); // Arredondar a média
 
@@ -24,7 +22,6 @@ public class MenuAlunos {
             }
         }
 
-        // Menu de opções
         do {
             menuop.opcao = Byte.parseByte(JOptionPane.showInputDialog(
                 "MENU\n" +
