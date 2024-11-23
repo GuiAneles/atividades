@@ -6,7 +6,7 @@ public class MenuAlunos {
         Aluno[] alunos = new Aluno[15];
 
         for (int i = 0; i < 15; i++) {
-            alunos[i] = new Aluno(); // Inicializa um novo objeto Aluno
+            alunos[i] = new Aluno();
 
             alunos[i].nome = JOptionPane.showInputDialog("Digite o nome do aluno " + (i + 1) + ":");
             alunos[i].pr1 = Double.parseDouble(JOptionPane.showInputDialog("Digite a nota da PR1 de " + alunos[i].nome + ":"));
