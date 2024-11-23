@@ -22,7 +22,6 @@ public class ConjuntosComuns {
             encontrado = false;
             for (int j = 0; j < conjunto2.tamanho; j++) {
                 if (conjunto1.elementos[i] == conjunto2.elementos[j]) {
-                    // Verifica se o elemento já foi adicionado à saída
                     if (!resultado.contains(String.valueOf(conjunto1.elementos[i]))) {
                         resultado += conjunto1.elementos[i] + "\n";
                     }
