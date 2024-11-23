@@ -2,11 +2,11 @@ import javax.swing.JOptionPane;
 
 public class AlunosNotas {
     public static void main(String[] args) {
-        Aluno[] alunos = new Aluno[5]; // Vetor para armazenar os 5 alunos
+        Aluno[] alunos = new Aluno[5];
 
         // Coleta de dados para 5 alunos
         for (int i = 0; i < 5; i++) {
-            alunos[i] = new Aluno(); // Cria um novo objeto Aluno
+            alunos[i] = new Aluno();
 
             String s = JOptionPane.showInputDialog("Digite o nome do aluno " + (i + 1) + ":");
             alunos[i].nome = s;
@@ -30,6 +30,6 @@ public class AlunosNotas {
                          "Média: " + alunos[i].media + "\n\n";
         }
 
-        JOptionPane.showMessageDialog(null, resultado); // Exibe a listagem completa
+        JOptionPane.showMessageDialog(null, resultado);
     }
 }
