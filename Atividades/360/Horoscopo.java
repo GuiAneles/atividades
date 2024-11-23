@@ -2,22 +2,19 @@ import javax.swing.JOptionPane;
 
 public class Horoscopo {
     public static void main(String[] args) {
-        Pessoa[] pessoas = new Pessoa[100]; // Vetor para armazenar várias pessoas
-        int contador = 0; // Conta quantas pessoas foram cadastradas
+        Pessoa[] pessoas = new Pessoa[100];
+        int contador = 0;
 
         while (true) {
             String data = JOptionPane.showInputDialog("Digite A Data de Nascimento No Formato ddmm (9999 Para Terminar): ");
 
-            // Verifica se o usuário deseja encerrar o programa
             if (data.equals("9999")) {
                 break;
             }
 
-            // Cria um novo objeto Pessoa
             pessoas[contador] = new Pessoa();
             pessoas[contador].dataNascimento = data;
 
-            // Determina o signo com base na data
             int dia = Integer.parseInt(data.substring(0, 2));
             int mes = Integer.parseInt(data.substring(2, 4));
 
