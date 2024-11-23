@@ -2,22 +2,19 @@ import javax.swing.JOptionPane;
 
 public class ConjuntosComuns {
     public static void main(String[] args) {
-        Conjunto conjunto1 = new Conjunto(10); // Conjunto com 10 elementos
-        Conjunto conjunto2 = new Conjunto(20); // Conjunto com 20 elementos
-
-        // Coletando os elementos para o primeiro conjunto
+        Conjunto conjunto1 = new Conjunto(10);
+        Conjunto conjunto2 = new Conjunto(20);
+        
         for (int i = 0; i < conjunto1.tamanho; i++) {
             String s = JOptionPane.showInputDialog("Digite o " + (i + 1) + "º número do primeiro conjunto:");
             conjunto1.elementos[i] = Integer.parseInt(s);
         }
 
-        // Coletando os elementos para o segundo conjunto
         for (int i = 0; i < conjunto2.tamanho; i++) {
             String s = JOptionPane.showInputDialog("Digite o " + (i + 1) + "º número do segundo conjunto:");
             conjunto2.elementos[i] = Integer.parseInt(s);
         }
 
-        // Encontrando os elementos comuns
         String resultado = "Elementos comuns aos conjuntos:\n";
         boolean encontrado;
 
@@ -35,7 +32,6 @@ public class ConjuntosComuns {
             }
         }
 
-        // Exibindo o resultado
         if (resultado.equals("Elementos comuns aos conjuntos:\n")) {
             resultado = "Não há elementos comuns entre os conjuntos.";
         }
