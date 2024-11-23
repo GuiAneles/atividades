@@ -13,12 +13,12 @@ public class MenuAlunos {
             alunos[i].pr2 = Double.parseDouble(JOptionPane.showInputDialog("Digite a nota da PR2 de " + alunos[i].nome + ":"));
 
             alunos[i].media = (alunos[i].pr1 + alunos[i].pr2) / 2;
-            alunos[i].media = Math.round(alunos[i].media); // Arredondar a média
+            alunos[i].media = Math.round(alunos[i].media);
 
             if (alunos[i].media >= 6) {
-                alunos[i].situacao = "AP"; // Aprovado
+                alunos[i].situacao = "AP";
             } else {
-                alunos[i].situacao = "RP"; // Reprovado
+                alunos[i].situacao = "RP";
             }
         }
 
