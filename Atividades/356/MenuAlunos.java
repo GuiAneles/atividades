@@ -3,7 +3,7 @@ import javax.swing.JOptionPane;
 public class MenuAlunos {
     public static void main(String[] args) {
         Menu menuop = new Menu();
-        Aluno[] alunos = new Aluno[15]; // Vetor para armazenar 15 objetos Aluno
+        Aluno[] alunos = new Aluno[15];
 
         for (int i = 0; i < 15; i++) {
             alunos[i] = new Aluno(); // Inicializa um novo objeto Aluno
