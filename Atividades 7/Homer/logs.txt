@@ -1,0 +1,197 @@
+Seguindo as exigencias da atividade o codigo Solucao.java conseguiu cumprir todos os passos
+
+Logs:
+Ação: adicionar
+Nome: Homer
+Posição: fim
+Lista: [Homer]
+
+Ação: adicionar
+Nome: Marge
+Posição: fim
+Lista: [Homer, Marge]
+
+Ação: esvaziar
+Lista esvaziada.
+Lista: []
+
+Ação: adicionar
+Nome: Homer
+Posição: fim
+Lista: [Homer]
+
+Ação: adicionar
+Nome: Bart
+Posição: 0
+Lista: [Bart, Homer]
+
+Ação: adicionar
+Nome: Moll
+Posição: 1
+Lista: [Bart, Moll, Homer]
+
+Ação: esvaziar
+Lista esvaziada.
+Lista: []
+
+Ação: adicionar
+Nome: Homer
+Posição: fim
+Lista: [Homer]
+
+Ação: adicionar
+Nome: Bart
+Posição: fim
+Lista: [Homer, Bart]
+
+Ação: adicionar
+Nome: Lisa
+Posição: inicio
+Lista: [Lisa, Homer, Bart]
+Tamanho da lista: 3
+
+Ação: esvaziar
+Lista esvaziada.
+Lista: []
+
+Ação: adicionar
+Nome: Homer
+Posição: fim
+Lista: [Homer]
+
+Ação: adicionar
+Nome: Maggie
+Posição: fim
+Lista: [Homer, Maggie]
+
+Ação: adicionar
+Nome: Bart
+Posição: 0
+Lista: [Bart, Homer, Maggie]
+
+Ação: adicionar
+Nome: Marge
+Posição: 1
+Lista: [Bart, Marge, Homer, Maggie]
+
+Ação: verificar
+Nome: Lisa
+Lisa está na lista: false
+
+Ação: esvaziar
+Lista esvaziada.
+Lista: []
+
+Ação: adicionar
+Nome: Homer
+Posição: fim
+Lista: [Homer]
+
+Ação: adicionar
+Nome: Bart
+Posição: fim
+Lista: [Homer, Bart]
+Tamanho da lista: 2
+
+Ação: verificar
+Nome: Marge
+Marge está na lista: false
+
+Ação: verificar
+Nome: Homer
+Homer está na lista: true
+
+Ação: verificar
+Nome: Bart
+Bart está na lista: true
+
+Ação: verificar
+Nome: Maggie
+Maggie está na lista: false
+Tamanho da lista: 2
+
+Ação: esvaziar
+Lista esvaziada.
+Lista: []
+
+Ação: adicionar
+Nome: Bart
+Posição: inicio
+Lista: [Bart]
+
+Ação: adicionar
+Nome: Homer
+Posição: inicio
+Lista: [Homer, Bart]
+
+Ação: adicionar
+Nome: Marge
+Posição: fim
+Lista: [Homer, Bart, Marge]
+
+Ação: adicionar
+Nome: Maggie
+Posição: 1
+Lista: [Homer, Maggie, Bart, Marge]
+
+Ação: adicionar
+Nome: Ned Flanders
+Posição: inicio
+Lista: [Ned Flanders, Homer, Maggie, Bart, Marge]
+
+Ação: adicionar
+Nome: Sr. Burns
+Posição: fim
+Lista: [Ned Flanders, Homer, Maggie, Bart, Marge, Sr. Burns]
+
+Ação: remover
+Posição: fim
+Lista: [Ned Flanders, Homer, Maggie, Bart, Marge]
+
+Ação: remover
+Posição: 1
+Lista: [Ned Flanders, Maggie, Bart, Marge]
+Tamanho da lista: 4
+
+Ação: verificar
+Nome: Marge
+Marge está na lista: true
+
+Ação: verificar
+Nome: Homer
+Homer está na lista: false
+
+Ação: verificar
+Nome: Bart
+Bart está na lista: true
+
+Ação: verificar
+Nome: Maggie
+Maggie está na lista: true
+Tamanho da lista: 4
+
+Ação: remover
+Posição: inicio
+Lista: [Maggie, Bart, Marge]
+Tamanho da lista: 3
+
+Ação: verificar
+Nome: Marge
+Marge está na lista: true
+
+Ação: verificar
+Nome: Homer
+Homer está na lista: false
+
+Ação: verificar
+Nome: Bart
+Bart está na lista: true
+
+Ação: verificar
+Nome: Maggie
+Maggie está na lista: true
+Tamanho da lista: 3
+
+Ação: esvaziar
+Lista esvaziada.
+Lista: []
