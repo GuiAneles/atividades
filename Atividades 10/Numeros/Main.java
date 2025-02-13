@@ -7,8 +7,8 @@ public class Main {
             vetor[i] = gerarNumeroAleatorio(-9999, 9999);
         }
 
-        /*na atividade o senhor fala pra: "imprimir a lista em ordem crescente e depois em ordem decrescente."
-        mas no exemplo imprime numero por numero, como são mil numeros vou só imprimir a lista mesmo*/
+        /*na atividade o senhor fala pra: "Faça a impressão desses números na sua ordem de geração."
+        e no exemplo imprime numero por numero, como são mil numeros vou só imprimir a lista toda mesmo*/
         
         System.out.println("Numeros Gerados:");
         for (int num : vetor) {
